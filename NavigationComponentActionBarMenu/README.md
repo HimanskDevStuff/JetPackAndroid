@@ -1,6 +1,5 @@
 # Connecting ActionBar & Menu to Navigation Component
 	
-## First Approach
   • Find NavHostFragment in activityMain class and then find navcontroller
 	
   • Connect navController with setupActionBarWithNavcontroller
@@ -13,6 +12,9 @@
 
 ![image](https://user-images.githubusercontent.com/66693732/117541234-89b21400-b030-11eb-92a4-68777a4698d6.png)
 
+*For linking item clicks even of drop down menu with the desired fragment there are two approaches*
+
+## First Approach
 • Creating options menu for actionBar
 
 ![image](https://user-images.githubusercontent.com/66693732/117541246-9afb2080-b030-11eb-87f8-23b20d2fd38b.png)
@@ -36,7 +38,7 @@ If the item id (which is settingFragment in our case) matches with a existing fr
 
 • In this approach we can navigate to setting fragment from any fragment in that activity using global action.
 
-• It comes with drawbacks like it doesn't have compile time safety. So for example if we add an id of other items then it will not give us compile time error but when we will run the app it will crash. So, it doesn’t gurantee compile time safety.
+• In the previous approach there was some drawbacks. It didn't have compile time safety. So for example if we add an id of other items then it will not give us compile time error but when we will run the app it will crash. So, it doesn’t gurantee compile time safety.
 
 • For this reason we have global actions
  ### Setting up global action for new fragment "Terms & Conditions"
