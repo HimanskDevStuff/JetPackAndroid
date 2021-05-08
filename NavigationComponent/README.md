@@ -1,5 +1,6 @@
-# Getting Started With Navigation Component
+# Replicated the navigation graph taken from official android docs
+Refer to official docs to understand navigation component in detail
 
-Watch the course here: https://www.youtube.com/playlist?list=PLrnPJCHvNZuCamMFswP597mUF-whXoAA6
+https://developer.android.com/guide/navigation/navigation-getting-started?authuser=1
 
-![base thumbnail](https://user-images.githubusercontent.com/52977034/116893368-2dff1980-ac31-11eb-834b-e39cc8a0d8ee.png)
+![image](https://user-images.githubusercontent.com/66693732/117535186-42b52600-b012-11eb-92af-9dbad4dac0d0.png)
